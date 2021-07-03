@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on &lt;/yuxingwei&gt;</title>
+    <link>https://yuxingwei.github.io/posts/</link>
+    <description>Recent content in Posts on &lt;/yuxingwei&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jul 2021 21:28:16 +0800</lastBuildDate><atom:link href="https://yuxingwei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学生 -&gt; 打工人</title>
+      <link>https://yuxingwei.github.io/posts/%E5%AD%A6%E7%94%9F-%E6%89%93%E5%B7%A5%E4%BA%BA/</link>
+      <pubDate>Fri, 09 Jul 2021 21:28:16 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/%E5%AD%A6%E7%94%9F-%E6%89%93%E5%B7%A5%E4%BA%BA/</guid>
+      <description>去年6月底出来实习，到今天差不多一年，时间过的好快啊。回想去年实习，满满的都是青涩和憧憬，巴不得早点从学校出来。 今天2021年7月9号星期五</description>
+    </item>
+    
+    <item>
+      <title>ALTER IGNORE TABLE ADD UNIQUE, what will be truncated?</title>
+      <link>https://yuxingwei.github.io/posts/alter-ignore-table-add-unique-what-will-be-truncated/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/alter-ignore-table-add-unique-what-will-be-truncated/</guid>
+      <description>The first record will be kept, the rest deleted §§ :
+IGNORE is a MySQL extension to standard SQL. It controls how ALTER TABLE works if there are duplicates on unique keys in the new table or if warnings occur when strict mode is enabled. If IGNORE is not specified, the copy is aborted and rolled back if duplicate-key errors occur. If IGNORE is specified, only the first row is used of rows with duplicates on a unique key, The other conflicting rows are deleted.</description>
+    </item>
+    
+    <item>
+      <title>Difference Between KVM and QEMU</title>
+      <link>https://yuxingwei.github.io/posts/difference-between-kvm-and-qemu/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/difference-between-kvm-and-qemu/</guid>
+      <description>Qemu is a complete and standalone software of its own. You use it to emulate machines, it is very flexible and portable. Mainly it works by a special &amp;lsquo;recompiler&amp;rsquo; that transforms binary code written for a given processor into another one (say, to run MIPS code on a PPC mac, or ARM in an x86 PC).
+To emulate more than just the processor, Qemu includes a long list of peripheral emulators: disk, network, VGA, PCI, USB, serial/parallel ports, etc.</description>
+    </item>
+    
+    <item>
+      <title>Difference Between Schema / Database in MySQL</title>
+      <link>https://yuxingwei.github.io/posts/difference-between-schema-/-database-in-mysql/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/difference-between-schema-/-database-in-mysql/</guid>
+      <description>In MySQL, physically, a schema is synonymous with a database. You can substitute the keyword SCHEMA instead of DATABASE in MySQL SQL syntax, for example using CREATE SCHEMA instead of CREATE DATABASE.
+Some other database products draw a distinction. For example, in the Oracle Database product, a schema represents only a part of a database: the tables and other objects owned by a single user.</description>
+    </item>
+    
+  </channel>
+</rss>

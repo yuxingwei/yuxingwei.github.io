@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on &lt;/yuxingwei&gt;</title>
+    <link>https://yuxingwei.github.io/tags/mysql/</link>
+    <description>Recent content in MySQL on &lt;/yuxingwei&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 22:09:56 +0800</lastBuildDate><atom:link href="https://yuxingwei.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALTER IGNORE TABLE ADD UNIQUE, what will be truncated?</title>
+      <link>https://yuxingwei.github.io/posts/alter-ignore-table-add-unique-what-will-be-truncated/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/alter-ignore-table-add-unique-what-will-be-truncated/</guid>
+      <description>The first record will be kept, the rest deleted §§ :
+IGNORE is a MySQL extension to standard SQL. It controls how ALTER TABLE works if there are duplicates on unique keys in the new table or if warnings occur when strict mode is enabled. If IGNORE is not specified, the copy is aborted and rolled back if duplicate-key errors occur. If IGNORE is specified, only the first row is used of rows with duplicates on a unique key, The other conflicting rows are deleted.</description>
+    </item>
+    
+    <item>
+      <title>Difference Between Schema / Database in MySQL</title>
+      <link>https://yuxingwei.github.io/posts/difference-between-schema-/-database-in-mysql/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/difference-between-schema-/-database-in-mysql/</guid>
+      <description>In MySQL, physically, a schema is synonymous with a database. You can substitute the keyword SCHEMA instead of DATABASE in MySQL SQL syntax, for example using CREATE SCHEMA instead of CREATE DATABASE.
+Some other database products draw a distinction. For example, in the Oracle Database product, a schema represents only a part of a database: the tables and other objects owned by a single user.</description>
+    </item>
+    
+  </channel>
+</rss>

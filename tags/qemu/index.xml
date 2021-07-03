@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QEMU on &lt;/yuxingwei&gt;</title>
+    <link>https://yuxingwei.github.io/tags/qemu/</link>
+    <description>Recent content in QEMU on &lt;/yuxingwei&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 22:09:56 +0800</lastBuildDate><atom:link href="https://yuxingwei.github.io/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Difference Between KVM and QEMU</title>
+      <link>https://yuxingwei.github.io/posts/difference-between-kvm-and-qemu/</link>
+      <pubDate>Sat, 03 Jul 2021 22:09:56 +0800</pubDate>
+      
+      <guid>https://yuxingwei.github.io/posts/difference-between-kvm-and-qemu/</guid>
+      <description>Qemu is a complete and standalone software of its own. You use it to emulate machines, it is very flexible and portable. Mainly it works by a special &amp;lsquo;recompiler&amp;rsquo; that transforms binary code written for a given processor into another one (say, to run MIPS code on a PPC mac, or ARM in an x86 PC).
+To emulate more than just the processor, Qemu includes a long list of peripheral emulators: disk, network, VGA, PCI, USB, serial/parallel ports, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
